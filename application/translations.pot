@@ -1,0 +1,1818 @@
+
+
+##############################################################################
+#
+# .pot file
+#
+# Translate this file to each required language and place in WEB-INF, eg:
+#
+#     /WEB-INF/translations-en_US.po
+#     /WEB-INF/translations-en.po
+#     /WEB-INF/translations-fr_FR.po
+#     /WEB-INF/translations-fr.po
+#     /WEB-INF/translations.po
+#
+# If the app uses TranslatableString (eg for internationalized validation
+# messages), or if the app calls the TranslationService directly, then ensure
+# that all text to be translated has been captured by running a full
+# integration test suite that exercises all relevant behaviour
+#
+##############################################################################
+
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-07-14 00:10:50+\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+
+#: org.apache.isis.applib.services.metamodel.MetaModelServicesMenu#downloadMetaModel(java.lang.String)
+msgid ".csv file name"
+msgstr ""
+
+
+#: org.apache.isis.core.metamodel.services.jdosupport.Persistable_downloadJdoMetadata#exec(java.lang.String)
+msgid ".jdo file name"
+msgstr ""
+
+
+#: org.apache.isis.core.runtime.services.i18n.po.TranslationServicePoMenu#downloadTranslations(java.lang.String)
+msgid ".pot file name"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.appfeat.ApplicationMemberType#ACTION
+#: org.isisaddons.module.command.dom.CommandJdo#targetAction
+msgid "Action"
+msgstr ""
+
+
+#: org.apache.isis.schema.common.v1.InteractionType#ACTION_INVOCATION
+msgid "Action Invocation"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.DistributionProfile#active
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#active
+msgid "Active"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandServiceMenu#activeCommands()
+msgid "Active Commands"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandServiceMenu
+msgid "Activity"
+msgstr ""
+
+
+#: domainapp.modules.cmn.util.ReportType#ACTUAL_LEVEL_POSITION_LIMIT_BREACH_REPORT
+msgid "Actual Level Position Limit Breach Report"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#addDocuments()
+msgid "Add Documents"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.CommonMenu#addPlugin()
+msgid "Add Plugin"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.CommonMenu
+msgid "Admin"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.PluginRepository#allPlugins
+msgid "All Plugins"
+msgstr ""
+
+
+#: domainapp.modules.cmn.util.DistributionFrequency#ANNUALLY
+msgid "Annually"
+msgstr ""
+
+
+#: org.apache.isis.core.runtime.system.session.IsisSessionFactoryBuilder
+msgid "Are you sure?"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo#arguments
+msgid "Arguments"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract$ChangeType#AUDIT_ENTRY
+msgid "Audit Entry"
+msgstr ""
+
+
+#: org.apache.isis.applib.annotation.Command$ExecuteIn#BACKGROUND
+#: org.apache.isis.applib.services.command.Command$Executor#BACKGROUND
+msgid "Background"
+msgstr ""
+
+
+#: org.apache.isis.core.runtime.system.session.IsisSessionFactoryBuilder
+msgid "Cancel"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo#causedException
+msgid "Caused Exception"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.Plugin#className
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#targetClass
+#: org.isisaddons.module.command.dom.CommandJdo#targetClass
+msgid "Class"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.Plugin#className
+msgid "Class name of plugin to be loaded from Jar file"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupByCodeRepository#clazz
+#: domainapp.modules.cmn.dom.impl.AbstractActivableRepository#clazz
+#: domainapp.modules.cmn.dom.impl.AbstractLookupByCodeRepository#clazz
+#: domainapp.modules.cmn.dom.impl.AbstractRepository#clazz
+#: domainapp.modules.cmn.dom.impl.CountryRepository#clazz
+#: domainapp.modules.cmn.dom.impl.DestinationProfileRepository#clazz
+#: domainapp.modules.cmn.dom.impl.DocumentRepository#clazz
+#: domainapp.modules.cmn.dom.impl.PluginRepository#clazz
+#: domainapp.modules.cmn.dom.impl.PluginTypeRepository#clazz
+#: domainapp.modules.cmn.dom.impl.ProfileRepository#clazz
+#: domainapp.modules.cmn.dom.impl.ReportingProfileRepository#clazz
+#: domainapp.modules.cmn.dom.impl.TemplateEngineRepository#clazz
+#: domainapp.modules.cmn.dom.impl.TemplateRepository#clazz
+msgid "Clazz"
+msgstr ""
+
+
+#: org.apache.isis.core.runtime.services.i18n.po.TranslationServicePoMenu#resetTranslationCache()
+msgid "Clear translation cache"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupPersistentEntity#code
+#: domainapp.modules.cmn.dom.impl.AbstractLookupPersistentEntity#code
+#: domainapp.modules.cmn.dom.impl.Country#code
+#: domainapp.modules.cmn.dom.impl.DestinationProfile#code
+#: domainapp.modules.cmn.dom.impl.DistributionProfile#code
+#: domainapp.modules.cmn.dom.impl.Document#code
+#: domainapp.modules.cmn.dom.impl.Plugin#code
+#: domainapp.modules.cmn.dom.impl.PluginType#code
+#: domainapp.modules.cmn.dom.impl.Profile#code
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#code
+#: domainapp.modules.cmn.dom.impl.Template#code
+#: domainapp.modules.cmn.dom.impl.TemplateEngine#code
+msgid "Code"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.appfeat.ApplicationMemberType#COLLECTION
+msgid "Collection"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.HasTransactionId#command()
+#: org.apache.isis.applib.services.command.Command#command()
+#: org.apache.isis.applib.services.command.Command2#command()
+#: org.apache.isis.applib.services.command.Command3#command()
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract$ChangeType#COMMAND
+#: org.isisaddons.module.command.dom.CommandJdo
+#: org.isisaddons.module.command.dom.CommandJdo#command()
+msgid "Command"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.layout.LayoutService$Style#COMPLETE
+#: org.isisaddons.module.command.dom.CommandJdo#complete
+msgid "Complete"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo#completedAt
+msgid "Completed At"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.config.ConfigurationServiceMenu#configuration()
+msgid "Configuration"
+msgstr ""
+
+
+#: org.apache.isis.core.runtime.system.session.IsisSessionFactoryBuilder
+msgid "Confirm"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupByCodeRepository#countAll()
+#: domainapp.modules.cmn.dom.impl.AbstractActivableRepository#countAll()
+#: domainapp.modules.cmn.dom.impl.AbstractLookupByCodeRepository#countAll()
+#: domainapp.modules.cmn.dom.impl.AbstractRepository#countAll()
+#: domainapp.modules.cmn.dom.impl.CountryRepository#countAll()
+#: domainapp.modules.cmn.dom.impl.DestinationProfileRepository#countAll()
+#: domainapp.modules.cmn.dom.impl.DocumentRepository#countAll()
+#: domainapp.modules.cmn.dom.impl.PluginRepository#countAll()
+#: domainapp.modules.cmn.dom.impl.PluginTypeRepository#countAll()
+#: domainapp.modules.cmn.dom.impl.ProfileRepository#countAll()
+#: domainapp.modules.cmn.dom.impl.ReportingProfileRepository#countAll()
+#: domainapp.modules.cmn.dom.impl.TemplateEngineRepository#countAll()
+#: domainapp.modules.cmn.dom.impl.TemplateRepository#countAll()
+msgid "Count All"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageViewModel#create()
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupByCodeRepository#create()
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupPersistentEntity#create()
+#: domainapp.modules.cmn.dom.impl.AbstractActivablePersistentEntity#create()
+#: domainapp.modules.cmn.dom.impl.AbstractActivableRepository#create()
+#: domainapp.modules.cmn.dom.impl.AbstractLookupByCodeRepository#create()
+#: domainapp.modules.cmn.dom.impl.AbstractLookupPersistentEntity#create()
+#: domainapp.modules.cmn.dom.impl.AbstractRepository#create()
+#: domainapp.modules.cmn.dom.impl.BasePersistableEntity#create()
+#: domainapp.modules.cmn.dom.impl.Country#create()
+#: domainapp.modules.cmn.dom.impl.CountryRepository#create()
+#: domainapp.modules.cmn.dom.impl.DestinationProfile#create()
+#: domainapp.modules.cmn.dom.impl.DestinationProfileRepository#create()
+#: domainapp.modules.cmn.dom.impl.DistributionProfile#create()
+#: domainapp.modules.cmn.dom.impl.Document#create()
+#: domainapp.modules.cmn.dom.impl.DocumentRepository#create()
+#: domainapp.modules.cmn.dom.impl.Plugin#create()
+#: domainapp.modules.cmn.dom.impl.PluginRepository#create()
+#: domainapp.modules.cmn.dom.impl.PluginType#create()
+#: domainapp.modules.cmn.dom.impl.PluginTypeRepository#create()
+#: domainapp.modules.cmn.dom.impl.Profile#create()
+#: domainapp.modules.cmn.dom.impl.ProfileRepository#create()
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#create()
+#: domainapp.modules.cmn.dom.impl.ReportingProfileRepository#create()
+#: domainapp.modules.cmn.dom.impl.Template#create()
+#: domainapp.modules.cmn.dom.impl.TemplateEngine#create()
+#: domainapp.modules.cmn.dom.impl.TemplateEngineRepository#create()
+#: domainapp.modules.cmn.dom.impl.TemplateRepository#create()
+#: java.lang.Class#create()
+#: java.lang.Object#create()
+#: org.apache.isis.applib.AbstractContainedObject#create()
+#: org.apache.isis.applib.AbstractService#create()
+#: org.apache.isis.applib.AbstractSubscriber#create()
+#: org.apache.isis.applib.AbstractViewModel#create()
+#: org.apache.isis.applib.fixturescripts.FixtureResult#create()
+#: org.apache.isis.applib.fixturescripts.FixtureScript#create()
+#: org.apache.isis.applib.fixturescripts.FixtureScripts#create()
+#: org.apache.isis.applib.services.config.ConfigurationProperty#create()
+#: org.apache.isis.applib.services.eventbus.EventBusService#create()
+#: org.apache.isis.applib.services.exceprecog.ExceptionRecognizerComposite#create()
+#: org.apache.isis.applib.services.jaxb.JaxbService$Simple#create()
+#: org.apache.isis.applib.services.xmlsnapshot.XmlSnapshotServiceAbstract#create()
+#: org.apache.isis.core.metamodel.services.appfeat.ApplicationFeature#create()
+#: org.apache.isis.core.metamodel.services.grid.GridSystemServiceAbstract#create()
+#: org.apache.isis.core.runtime.authorization.AuthorizationManagerAbstract#create()
+#: org.apache.isis.core.runtime.services.eventbus.EventBusServiceDefault#create()
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#create()
+#: org.apache.isis.schema.cmd.v1.CommandDto#create()
+#: org.apache.isis.schema.cmd.v1.MemberDto#create()
+#: org.apache.isis.schema.common.v1.OidDto#create()
+#: org.apache.isis.schema.common.v1.OidsDto#create()
+#: org.isisaddons.module.command.dom.CommandJdo#create()
+msgid "Create"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupByCodeRepository#createNoPersist()
+#: domainapp.modules.cmn.dom.impl.AbstractActivableRepository#createNoPersist()
+#: domainapp.modules.cmn.dom.impl.AbstractLookupByCodeRepository#createNoPersist()
+#: domainapp.modules.cmn.dom.impl.CountryRepository#createNoPersist()
+#: domainapp.modules.cmn.dom.impl.DestinationProfileRepository#createNoPersist()
+#: domainapp.modules.cmn.dom.impl.DocumentRepository#createNoPersist()
+#: domainapp.modules.cmn.dom.impl.PluginRepository#createNoPersist()
+#: domainapp.modules.cmn.dom.impl.PluginTypeRepository#createNoPersist()
+#: domainapp.modules.cmn.dom.impl.ProfileRepository#createNoPersist()
+#: domainapp.modules.cmn.dom.impl.ReportingProfileRepository#createNoPersist()
+#: domainapp.modules.cmn.dom.impl.TemplateEngineRepository#createNoPersist()
+#: domainapp.modules.cmn.dom.impl.TemplateRepository#createNoPersist()
+msgid "Create No Persist"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageViewModel#createReportTemplate()
+msgid "Create Report Template"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageViewModel#createReportingProfile()
+msgid "Create Reporting Profile"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupPersistentEntity#dateCreation
+#: domainapp.modules.cmn.dom.impl.AbstractActivablePersistentEntity#dateCreation
+#: domainapp.modules.cmn.dom.impl.AbstractLookupPersistentEntity#dateCreation
+#: domainapp.modules.cmn.dom.impl.BasePersistableEntity#dateCreation
+#: domainapp.modules.cmn.dom.impl.Country#dateCreation
+#: domainapp.modules.cmn.dom.impl.DestinationProfile#dateCreation
+#: domainapp.modules.cmn.dom.impl.DistributionProfile#dateCreation
+#: domainapp.modules.cmn.dom.impl.Document#dateCreation
+#: domainapp.modules.cmn.dom.impl.Plugin#dateCreation
+#: domainapp.modules.cmn.dom.impl.Profile#dateCreation
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#dateCreation
+#: domainapp.modules.cmn.dom.impl.Template#dateCreation
+#: domainapp.modules.cmn.dom.impl.TemplateEngine#dateCreation
+msgid "Created On"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.layout.LayoutService$Style#CURRENT
+msgid "Current"
+msgstr ""
+
+
+#: domainapp.modules.cmn.util.DistributionFrequency#DAILY
+msgid "Daily"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupPersistentEntity#dateModification
+#: domainapp.modules.cmn.dom.impl.AbstractActivablePersistentEntity#dateModification
+#: domainapp.modules.cmn.dom.impl.AbstractLookupPersistentEntity#dateModification
+#: domainapp.modules.cmn.dom.impl.BasePersistableEntity#dateModification
+#: domainapp.modules.cmn.dom.impl.Country#dateModification
+#: domainapp.modules.cmn.dom.impl.DestinationProfile#dateModification
+#: domainapp.modules.cmn.dom.impl.DistributionProfile#dateModification
+#: domainapp.modules.cmn.dom.impl.Document#dateModification
+#: domainapp.modules.cmn.dom.impl.Plugin#dateModification
+#: domainapp.modules.cmn.dom.impl.Profile#dateModification
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#dateModification
+#: domainapp.modules.cmn.dom.impl.Template#dateModification
+#: domainapp.modules.cmn.dom.impl.TemplateEngine#dateModification
+msgid "Date Modification"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageViewModel#createReportingProfile(java.lang.String,java.lang.String,domainapp.modules.cmn.dom.impl.Profile,domainapp.modules.cmn.util.DistributionFrequency,domainapp.modules.cmn.util.DistributionType,java.lang.String,java.lang.String,domainapp.modules.cmn.dom.impl.Template,domainapp.modules.cmn.util.ReportType)
+#: domainapp.modules.cmn.dom.impl.DistributionProfile#description
+#: domainapp.modules.cmn.dom.impl.Plugin#description
+#: domainapp.modules.cmn.dom.impl.Profile#description
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#description
+msgid "Description"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.DistributionProfile#destinationProfile
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#destinationProfile
+msgid "Destination Profile"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract
+#: org.isisaddons.module.command.dom.CommandJdo
+msgid "Detail"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageViewModel#createReportingProfile(java.lang.String,java.lang.String,domainapp.modules.cmn.dom.impl.Profile,domainapp.modules.cmn.util.DistributionFrequency,domainapp.modules.cmn.util.DistributionType,java.lang.String,java.lang.String,domainapp.modules.cmn.dom.impl.Template,domainapp.modules.cmn.util.ReportType)
+#: domainapp.modules.cmn.dom.impl.DistributionProfile#distributionType
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#distributionType
+msgid "Distribution Type"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#addDocuments(domainapp.modules.cmn.dom.impl.Document)
+#: domainapp.modules.cmn.util.TemplateType#DOCUMENT
+msgid "Document"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#documents
+msgid "Documents"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract
+msgid "Domain Change"
+msgstr ""
+
+
+#: domainapp.modules.cmn.util.DistributionType#DOWNLOAD
+msgid "Download"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupPersistentEntity#downloadJdoMetadata()
+#: domainapp.modules.cmn.dom.impl.AbstractActivablePersistentEntity#downloadJdoMetadata()
+#: domainapp.modules.cmn.dom.impl.AbstractLookupPersistentEntity#downloadJdoMetadata()
+#: domainapp.modules.cmn.dom.impl.BasePersistableEntity#downloadJdoMetadata()
+#: domainapp.modules.cmn.dom.impl.Country#downloadJdoMetadata()
+#: domainapp.modules.cmn.dom.impl.DestinationProfile#downloadJdoMetadata()
+#: domainapp.modules.cmn.dom.impl.DistributionProfile#downloadJdoMetadata()
+#: domainapp.modules.cmn.dom.impl.Document#downloadJdoMetadata()
+#: domainapp.modules.cmn.dom.impl.Plugin#downloadJdoMetadata()
+#: domainapp.modules.cmn.dom.impl.PluginType#downloadJdoMetadata()
+#: domainapp.modules.cmn.dom.impl.Profile#downloadJdoMetadata()
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#downloadJdoMetadata()
+#: domainapp.modules.cmn.dom.impl.Template#downloadJdoMetadata()
+#: domainapp.modules.cmn.dom.impl.TemplateEngine#downloadJdoMetadata()
+#: org.isisaddons.module.command.dom.CommandJdo#downloadJdoMetadata()
+msgid "Download Jdo Metadata"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageViewModel#downloadLayoutXml()
+#: domainapp.modules.cmn.dom.api.IActivableEntity#downloadLayoutXml()
+#: domainapp.modules.cmn.dom.api.ILookupEntity#downloadLayoutXml()
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupByCodeRepository#downloadLayoutXml()
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupPersistentEntity#downloadLayoutXml()
+#: domainapp.modules.cmn.dom.impl.AbstractActivablePersistentEntity#downloadLayoutXml()
+#: domainapp.modules.cmn.dom.impl.AbstractActivableRepository#downloadLayoutXml()
+#: domainapp.modules.cmn.dom.impl.AbstractLookupByCodeRepository#downloadLayoutXml()
+#: domainapp.modules.cmn.dom.impl.AbstractLookupPersistentEntity#downloadLayoutXml()
+#: domainapp.modules.cmn.dom.impl.AbstractRepository#downloadLayoutXml()
+#: domainapp.modules.cmn.dom.impl.BasePersistableEntity#downloadLayoutXml()
+#: domainapp.modules.cmn.dom.impl.Country#downloadLayoutXml()
+#: domainapp.modules.cmn.dom.impl.DestinationProfile#downloadLayoutXml()
+#: domainapp.modules.cmn.dom.impl.DistributionProfile#downloadLayoutXml()
+#: domainapp.modules.cmn.dom.impl.Document#downloadLayoutXml()
+#: domainapp.modules.cmn.dom.impl.Plugin#downloadLayoutXml()
+#: domainapp.modules.cmn.dom.impl.PluginType#downloadLayoutXml()
+#: domainapp.modules.cmn.dom.impl.Profile#downloadLayoutXml()
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#downloadLayoutXml()
+#: domainapp.modules.cmn.dom.impl.Template#downloadLayoutXml()
+#: domainapp.modules.cmn.dom.impl.TemplateEngine#downloadLayoutXml()
+#: java.io.Serializable#downloadLayoutXml()
+#: java.lang.Class#downloadLayoutXml()
+#: java.lang.Comparable#downloadLayoutXml()
+#: java.lang.Iterable#downloadLayoutXml()
+#: java.lang.Object#downloadLayoutXml()
+#: java.lang.reflect.AnnotatedElement#downloadLayoutXml()
+#: java.lang.reflect.GenericDeclaration#downloadLayoutXml()
+#: java.lang.reflect.Type#downloadLayoutXml()
+#: java.util.Collection#downloadLayoutXml()
+#: java.util.List#downloadLayoutXml()
+#: java.util.Map#downloadLayoutXml()
+#: java.util.Set#downloadLayoutXml()
+#: javax.jdo.InstanceCallbacks#downloadLayoutXml()
+#: javax.jdo.listener.ClearCallback#downloadLayoutXml()
+#: javax.jdo.listener.DeleteCallback#downloadLayoutXml()
+#: javax.jdo.listener.InstanceLifecycleListener#downloadLayoutXml()
+#: javax.jdo.listener.LoadCallback#downloadLayoutXml()
+#: javax.jdo.listener.LoadLifecycleListener#downloadLayoutXml()
+#: javax.jdo.listener.StoreCallback#downloadLayoutXml()
+#: javax.jdo.listener.StoreLifecycleListener#downloadLayoutXml()
+#: org.apache.isis.applib.AbstractContainedObject#downloadLayoutXml()
+#: org.apache.isis.applib.AbstractService#downloadLayoutXml()
+#: org.apache.isis.applib.AbstractSubscriber#downloadLayoutXml()
+#: org.apache.isis.applib.AbstractViewModel#downloadLayoutXml()
+#: org.apache.isis.applib.ViewModel#downloadLayoutXml()
+#: org.apache.isis.applib.fixtures.InstallableFixture#downloadLayoutXml()
+#: org.apache.isis.applib.fixturescripts.FixtureResult#downloadLayoutXml()
+#: org.apache.isis.applib.fixturescripts.FixtureScript#downloadLayoutXml()
+#: org.apache.isis.applib.fixturescripts.FixtureScripts#downloadLayoutXml()
+#: org.apache.isis.applib.services.HasTransactionId#downloadLayoutXml()
+#: org.apache.isis.applib.services.HasUsername#downloadLayoutXml()
+#: org.apache.isis.applib.services.WithTransactionScope#downloadLayoutXml()
+#: org.apache.isis.applib.services.appfeat.ApplicationFeatureRepository#downloadLayoutXml()
+#: org.apache.isis.applib.services.audit.AuditerService#downloadLayoutXml()
+#: org.apache.isis.applib.services.background.BackgroundCommandService#downloadLayoutXml()
+#: org.apache.isis.applib.services.background.BackgroundCommandService2#downloadLayoutXml()
+#: org.apache.isis.applib.services.background.BackgroundService#downloadLayoutXml()
+#: org.apache.isis.applib.services.background.BackgroundService2#downloadLayoutXml()
+#: org.apache.isis.applib.services.bookmark.BookmarkService#downloadLayoutXml()
+#: org.apache.isis.applib.services.bookmark.BookmarkService2#downloadLayoutXml()
+#: org.apache.isis.applib.services.classdiscovery.ClassDiscoveryService#downloadLayoutXml()
+#: org.apache.isis.applib.services.classdiscovery.ClassDiscoveryService2#downloadLayoutXml()
+#: org.apache.isis.applib.services.command.Command#downloadLayoutXml()
+#: org.apache.isis.applib.services.command.Command2#downloadLayoutXml()
+#: org.apache.isis.applib.services.command.Command3#downloadLayoutXml()
+#: org.apache.isis.applib.services.command.spi.CommandService#downloadLayoutXml()
+#: org.apache.isis.applib.services.config.ConfigurationProperty#downloadLayoutXml()
+#: org.apache.isis.applib.services.config.ConfigurationService#downloadLayoutXml()
+#: org.apache.isis.applib.services.email.EmailService#downloadLayoutXml()
+#: org.apache.isis.applib.services.eventbus.EventBusService#downloadLayoutXml()
+#: org.apache.isis.applib.services.exceprecog.ExceptionRecognizer#downloadLayoutXml()
+#: org.apache.isis.applib.services.exceprecog.ExceptionRecognizer2#downloadLayoutXml()
+#: org.apache.isis.applib.services.exceprecog.ExceptionRecognizerComposite#downloadLayoutXml()
+#: org.apache.isis.applib.services.factory.FactoryService#downloadLayoutXml()
+#: org.apache.isis.applib.services.fixturespec.FixtureScriptsSpecificationProvider#downloadLayoutXml()
+#: org.apache.isis.applib.services.grid.GridLoaderService#downloadLayoutXml()
+#: org.apache.isis.applib.services.grid.GridService#downloadLayoutXml()
+#: org.apache.isis.applib.services.grid.GridSystemService#downloadLayoutXml()
+#: org.apache.isis.applib.services.homepage.HomePageProviderService#downloadLayoutXml()
+#: org.apache.isis.applib.services.i18n.TranslationService#downloadLayoutXml()
+#: org.apache.isis.applib.services.jaxb.JaxbService#downloadLayoutXml()
+#: org.apache.isis.applib.services.jaxb.JaxbService$Simple#downloadLayoutXml()
+#: org.apache.isis.applib.services.jdosupport.IsisJdoSupport#downloadLayoutXml()
+#: org.apache.isis.applib.services.layout.LayoutService#downloadLayoutXml()
+#: org.apache.isis.applib.services.memento.MementoService#downloadLayoutXml()
+#: org.apache.isis.applib.services.message.MessageService#downloadLayoutXml()
+#: org.apache.isis.applib.services.metamodel.MetaModelService#downloadLayoutXml()
+#: org.apache.isis.applib.services.metamodel.MetaModelService2#downloadLayoutXml()
+#: org.apache.isis.applib.services.metamodel.MetaModelService3#downloadLayoutXml()
+#: org.apache.isis.applib.services.metrics.MetricsService#downloadLayoutXml()
+#: org.apache.isis.applib.services.publish.PublisherService#downloadLayoutXml()
+#: org.apache.isis.applib.services.registry.ServiceRegistry#downloadLayoutXml()
+#: org.apache.isis.applib.services.registry.ServiceRegistry2#downloadLayoutXml()
+#: org.apache.isis.applib.services.repository.RepositoryService#downloadLayoutXml()
+#: org.apache.isis.applib.services.routing.RoutingService#downloadLayoutXml()
+#: org.apache.isis.applib.services.sessmgmt.SessionManagementService#downloadLayoutXml()
+#: org.apache.isis.applib.services.sudo.SudoService#downloadLayoutXml()
+#: org.apache.isis.applib.services.sudo.SudoService$Spi#downloadLayoutXml()
+#: org.apache.isis.applib.services.swagger.SwaggerService#downloadLayoutXml()
+#: org.apache.isis.applib.services.tablecol.TableColumnOrderService#downloadLayoutXml()
+#: org.apache.isis.applib.services.title.TitleService#downloadLayoutXml()
+#: org.apache.isis.applib.services.urlencoding.UrlEncodingService#downloadLayoutXml()
+#: org.apache.isis.applib.services.user.UserService#downloadLayoutXml()
+#: org.apache.isis.applib.services.userreg.EmailNotificationService#downloadLayoutXml()
+#: org.apache.isis.applib.services.wrapper.WrapperFactory#downloadLayoutXml()
+#: org.apache.isis.applib.services.xactn.TransactionService#downloadLayoutXml()
+#: org.apache.isis.applib.services.xmlsnapshot.XmlSnapshotService#downloadLayoutXml()
+#: org.apache.isis.applib.services.xmlsnapshot.XmlSnapshotServiceAbstract#downloadLayoutXml()
+#: org.apache.isis.core.commons.authentication.AuthenticationSessionProvider#downloadLayoutXml()
+#: org.apache.isis.core.commons.components.ApplicationScopedComponent#downloadLayoutXml()
+#: org.apache.isis.core.commons.components.Component#downloadLayoutXml()
+#: org.apache.isis.core.commons.config.IsisConfiguration#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.adapter.mgr.AdapterManager#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.adapter.mgr.AdapterManagerBase#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.deployment.DeploymentCategoryProvider#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.facetapi.MetaModelRefiner#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.facetapi.MetaModelValidatorRefiner#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.services.ServicesInjectorAware#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.services.appfeat.ApplicationFeature#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.services.command.CommandDtoServiceInternal#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.services.configinternal.ConfigurationServiceInternal#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.services.grid.GridSystemServiceAbstract#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.services.ixn.InteractionDtoServiceInternal#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.services.msgbroker.MessageBrokerServiceInternal#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.services.persistsession.PersistenceSessionServiceInternal#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.services.publishing.PublishingServiceInternal#downloadLayoutXml()
+#: org.apache.isis.core.metamodel.services.transtate.TransactionStateProviderInternal#downloadLayoutXml()
+#: org.apache.isis.core.runtime.authentication.AuthenticationManager#downloadLayoutXml()
+#: org.apache.isis.core.runtime.authorization.AuthorizationManager#downloadLayoutXml()
+#: org.apache.isis.core.runtime.authorization.AuthorizationManagerAbstract#downloadLayoutXml()
+#: org.apache.isis.core.runtime.persistence.FixturesInstalledFlag#downloadLayoutXml()
+#: org.apache.isis.core.runtime.services.eventbus.EventBusServiceDefault#downloadLayoutXml()
+#: org.apache.isis.core.runtime.system.transaction.TransactionalClosure#downloadLayoutXml()
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#downloadLayoutXml()
+#: org.apache.isis.objectstore.jdo.applib.service.support.IsisJdoSupport#downloadLayoutXml()
+#: org.apache.isis.schema.cmd.v1.CommandDto#downloadLayoutXml()
+#: org.apache.isis.schema.cmd.v1.MemberDto#downloadLayoutXml()
+#: org.apache.isis.schema.common.v1.OidDto#downloadLayoutXml()
+#: org.apache.isis.schema.common.v1.OidsDto#downloadLayoutXml()
+#: org.isisaddons.module.command.dom.CommandJdo#downloadLayoutXml()
+msgid "Download Layout Xml"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.layout.LayoutServiceMenu#downloadLayouts()
+msgid "Download Layouts (XML)"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.metamodel.MetaModelServicesMenu#downloadMetaModel()
+msgid "Download Meta Model (CSV)"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.swagger.SwaggerServiceMenu#downloadSwaggerSpec()
+msgid "Download Swagger Spec"
+msgstr ""
+
+
+#: org.apache.isis.core.runtime.services.i18n.po.TranslationServicePoMenu#downloadTranslations()
+msgid "Download Translations"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo#duration
+msgid "Duration"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageViewModel#createReportingProfile(java.lang.String,java.lang.String,domainapp.modules.cmn.dom.impl.Profile,domainapp.modules.cmn.util.DistributionFrequency,domainapp.modules.cmn.util.DistributionType,java.lang.String,java.lang.String,domainapp.modules.cmn.dom.impl.Template,domainapp.modules.cmn.util.ReportType)
+msgid "E-mail"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.DestinationProfile#email
+msgid "Email"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageViewModel#createReportTemplate(java.lang.String,domainapp.modules.cmn.util.TemplateType,domainapp.modules.cmn.dom.impl.TemplateEngine,org.apache.isis.applib.value.Blob,java.lang.String,domainapp.modules.cmn.dom.impl.Plugin)
+#: domainapp.modules.cmn.dom.impl.Template#subject
+msgid "Email Subject"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupPersistentEntity#enableOrDisable()
+#: domainapp.modules.cmn.dom.impl.AbstractActivablePersistentEntity#enableOrDisable()
+#: domainapp.modules.cmn.dom.impl.Country#enableOrDisable()
+#: domainapp.modules.cmn.dom.impl.DestinationProfile#enableOrDisable()
+#: domainapp.modules.cmn.dom.impl.DistributionProfile#enableOrDisable()
+#: domainapp.modules.cmn.dom.impl.Document#enableOrDisable()
+#: domainapp.modules.cmn.dom.impl.Profile#enableOrDisable()
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#enableOrDisable()
+#: domainapp.modules.cmn.dom.impl.Template#enableOrDisable()
+#: domainapp.modules.cmn.dom.impl.TemplateEngine#enableOrDisable()
+msgid "Enable Or Disable"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupPersistentEntity#active
+#: domainapp.modules.cmn.dom.impl.AbstractActivablePersistentEntity#active
+#: domainapp.modules.cmn.dom.impl.Country#active
+#: domainapp.modules.cmn.dom.impl.DestinationProfile#active
+#: domainapp.modules.cmn.dom.impl.DistributionProfile#active
+#: domainapp.modules.cmn.dom.impl.Document#active
+#: domainapp.modules.cmn.dom.impl.Profile#active
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#active
+#: domainapp.modules.cmn.dom.impl.Template#active
+#: domainapp.modules.cmn.dom.impl.TemplateEngine#active
+msgid "Enabled"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.bookmark.BookmarkHolder_lookup#exec()
+#: org.apache.isis.applib.services.bookmark.BookmarkHolder_object#exec()
+#: org.apache.isis.core.metamodel.services.jdosupport.Persistable_downloadJdoMetadata#exec()
+msgid "Exec"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo#executeIn
+msgid "Execute In"
+msgstr ""
+
+
+#: org.apache.isis.core.metamodel.services.persistsession.PersistenceSessionServiceInternalNoop#executeWithinTransaction()
+#: org.apache.isis.core.runtime.services.persistsession.PersistenceSessionServiceInternalDefault#executeWithinTransaction()
+msgid "Execute Within Transaction"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.DestinationProfile#url
+msgid "FTP Server"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageViewModel#createReportingProfile(java.lang.String,java.lang.String,domainapp.modules.cmn.dom.impl.Profile,domainapp.modules.cmn.util.DistributionFrequency,domainapp.modules.cmn.util.DistributionType,java.lang.String,java.lang.String,domainapp.modules.cmn.dom.impl.Template,domainapp.modules.cmn.util.ReportType)
+msgid "FTP URL"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.dto.Dto_downloadXml#$$(java.lang.String)
+#: org.apache.isis.applib.services.dto.Dto_downloadXsd#$$(java.lang.String,org.apache.isis.applib.services.jaxb.JaxbService$IsisSchemas)
+#: org.apache.isis.applib.services.layout.Object_downloadLayoutXml#$$(java.lang.String,org.apache.isis.applib.services.layout.LayoutService$Style)
+msgid "File name"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.Document#filename
+#: org.apache.isis.applib.services.swagger.SwaggerServiceMenu#downloadSwaggerSpec(java.lang.String,org.apache.isis.applib.services.swagger.SwaggerService$Visibility,org.apache.isis.applib.services.swagger.SwaggerService$Format)
+msgid "Filename"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupByCodeRepository#findAllActive()
+#: domainapp.modules.cmn.dom.impl.AbstractActivableRepository#findAllActive()
+#: domainapp.modules.cmn.dom.impl.DestinationProfileRepository#findAllActive()
+#: domainapp.modules.cmn.dom.impl.DocumentRepository#findAllActive()
+#: domainapp.modules.cmn.dom.impl.ProfileRepository#findAllActive()
+#: domainapp.modules.cmn.dom.impl.ReportingProfileRepository#findAllActive()
+#: domainapp.modules.cmn.dom.impl.TemplateEngineRepository#findAllActive()
+#: domainapp.modules.cmn.dom.impl.TemplateRepository#findAllActive()
+msgid "Find All Active"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupByCodeRepository#findByCode()
+#: domainapp.modules.cmn.dom.impl.AbstractLookupByCodeRepository#findByCode()
+#: domainapp.modules.cmn.dom.impl.CountryRepository#findByCode()
+#: domainapp.modules.cmn.dom.impl.DestinationProfileRepository#findByCode()
+#: domainapp.modules.cmn.dom.impl.DocumentRepository#findByCode()
+#: domainapp.modules.cmn.dom.impl.PluginRepository#findByCode()
+#: domainapp.modules.cmn.dom.impl.PluginTypeRepository#findByCode()
+#: domainapp.modules.cmn.dom.impl.ProfileRepository#findByCode()
+#: domainapp.modules.cmn.dom.impl.ReportingProfileRepository#findByCode()
+#: domainapp.modules.cmn.dom.impl.TemplateEngineRepository#findByCode()
+#: domainapp.modules.cmn.dom.impl.TemplateRepository#findByCode()
+msgid "Find By Code"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupByCodeRepository#findByName()
+#: domainapp.modules.cmn.dom.impl.DestinationProfileRepository#findByName()
+#: domainapp.modules.cmn.dom.impl.DocumentRepository#findByName()
+#: domainapp.modules.cmn.dom.impl.ProfileRepository#findByName()
+#: domainapp.modules.cmn.dom.impl.ReportingProfileRepository#findByName()
+#: domainapp.modules.cmn.dom.impl.TemplateEngineRepository#findByName()
+#: domainapp.modules.cmn.dom.impl.TemplateRepository#findByName()
+msgid "Find By Name"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.DocumentRepository#findByUser()
+#: domainapp.modules.cmn.dom.impl.ReportingProfileRepository#findByUser()
+#: domainapp.modules.cmn.dom.impl.TemplateRepository#findByUser()
+msgid "Find By User"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandServiceMenu#findCommandById()
+msgid "Find Command By Id"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandServiceMenu#findCommands()
+msgid "Find Commands"
+msgstr ""
+
+
+#: org.apache.isis.applib.fixturescripts.FixtureResult#fixtureScriptClassName
+msgid "Fixture script"
+msgstr ""
+
+
+#: org.apache.isis.applib.annotation.Command$ExecuteIn#FOREGROUND
+msgid "Foreground"
+msgstr ""
+
+
+#: domainapp.modules.cmn.util.DistributionFrequency#FORTNIGHTLY
+msgid "Fortnightly"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageViewModel#createReportingProfile(java.lang.String,java.lang.String,domainapp.modules.cmn.dom.impl.Profile,domainapp.modules.cmn.util.DistributionFrequency,domainapp.modules.cmn.util.DistributionType,java.lang.String,java.lang.String,domainapp.modules.cmn.dom.impl.Template,domainapp.modules.cmn.util.ReportType)
+#: domainapp.modules.cmn.dom.impl.DistributionProfile#frequency
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#frequency
+msgid "Frequency"
+msgstr ""
+
+
+#: org.apache.isis.applib.fixturescripts.FixtureScript#friendlyName
+msgid "Friendly Name"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandServiceMenu#findCommands(org.joda.time.LocalDate,org.joda.time.LocalDate)
+msgid "From"
+msgstr ""
+
+
+#: domainapp.application.services.dbmanager.HsqlDbManagerMenu#hsqlDbManager()
+msgid "HSQL DB Manager"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageService#homePage()
+msgid "Home Page"
+msgstr ""
+
+
+#: org.apache.isis.core.metamodel.services.jdosupport.Persistable_datanucleusIdLong#exec()
+#: org.apache.isis.schema.common.v1.OidDto#id
+msgid "Id"
+msgstr ""
+
+
+#: org.apache.isis.applib.annotation.SemanticsOf#IDEMPOTENT
+msgid "Idempotent"
+msgstr ""
+
+
+#: org.apache.isis.applib.annotation.SemanticsOf#IDEMPOTENT_ARE_YOU_SURE
+msgid "Idempotent Are You Sure"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract
+#: org.isisaddons.module.command.dom.CommandJdo
+msgid "Identifiers"
+msgstr ""
+
+
+#: org.apache.isis.applib.annotation.Command$Persistence#IF_HINTED
+msgid "If Hinted"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.jaxb.JaxbService$IsisSchemas#IGNORE
+msgid "Ignore"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.jaxb.JaxbService$IsisSchemas#INCLUDE
+msgid "Include"
+msgstr ""
+
+
+#: org.apache.isis.schema.cmd.v1.MemberDto#interactionType
+msgid "Interaction Type"
+msgstr ""
+
+
+#: domainapp.modules.cmn.service.FormatterService#isNull()
+msgid "Is Null"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.Plugin#jarFileName
+msgid "Jar"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.Plugin#jarFileName
+msgid "Jar file name to be loaded dynamically from where plugin class to be loaded"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.swagger.SwaggerService$Format#JSON
+msgid "Json"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.config.ConfigurationProperty#key
+msgid "Key"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupByCodeRepository#listAll()
+#: domainapp.modules.cmn.dom.impl.AbstractActivableRepository#listAll()
+#: domainapp.modules.cmn.dom.impl.AbstractLookupByCodeRepository#listAll()
+#: domainapp.modules.cmn.dom.impl.AbstractRepository#listAll()
+#: domainapp.modules.cmn.dom.impl.CountryRepository#listAll()
+#: domainapp.modules.cmn.dom.impl.DestinationProfileRepository#listAll()
+#: domainapp.modules.cmn.dom.impl.DocumentRepository#listAll()
+#: domainapp.modules.cmn.dom.impl.PluginRepository#listAll()
+#: domainapp.modules.cmn.dom.impl.PluginTypeRepository#listAll()
+#: domainapp.modules.cmn.dom.impl.ProfileRepository#listAll()
+#: domainapp.modules.cmn.dom.impl.ReportingProfileRepository#listAll()
+#: domainapp.modules.cmn.dom.impl.TemplateEngineRepository#listAll()
+#: domainapp.modules.cmn.dom.impl.TemplateRepository#listAll()
+msgid "List All"
+msgstr ""
+
+
+#: domainapp.modules.cmn.util.DistributionType#MAIL
+#: domainapp.modules.cmn.util.TemplateType#MAIL
+msgid "Mail"
+msgstr ""
+
+
+#: org.apache.isis.schema.cmd.v1.CommandDto#majorVersion
+msgid "Major Version"
+msgstr ""
+
+
+#: domainapp.modules.cmn.service.FormatterService#makeNumber()
+msgid "Make Number"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#targetAction
+#: org.apache.isis.schema.cmd.v1.CommandDto#member
+msgid "Member"
+msgstr ""
+
+
+#: org.apache.isis.schema.cmd.v1.MemberDto#memberIdentifier
+#: org.isisaddons.module.command.dom.CommandJdo#memberIdentifier
+msgid "Member Identifier"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo#memento
+msgid "Memento"
+msgstr ""
+
+
+#: org.apache.isis.core.metamodel.services.jdosupport.Persistable_datanucleusIdLong
+#: org.apache.isis.core.metamodel.services.jdosupport.Persistable_datanucleusVersionLong
+#: org.apache.isis.core.metamodel.services.jdosupport.Persistable_datanucleusVersionTimestamp
+#: org.isisaddons.module.command.dom.CommandJdo
+msgid "Metadata"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo#metadataRegionDummyProperty
+msgid "Metadata Region Dummy Property"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.layout.LayoutService$Style#MINIMAL
+msgid "Minimal"
+msgstr ""
+
+
+#: org.apache.isis.schema.cmd.v1.CommandDto#minorVersion
+msgid "Minor Version"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.CodeDecode#monthCodeValue
+msgid "Month Code Value"
+msgstr ""
+
+
+#: domainapp.modules.cmn.util.DistributionFrequency#MONTHLY
+msgid "Monthly"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageViewModel#createReportingProfile(java.lang.String,java.lang.String,domainapp.modules.cmn.dom.impl.Profile,domainapp.modules.cmn.util.DistributionFrequency,domainapp.modules.cmn.util.DistributionType,java.lang.String,java.lang.String,domainapp.modules.cmn.dom.impl.Template,domainapp.modules.cmn.util.ReportType)
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupPersistentEntity#name
+#: domainapp.modules.cmn.dom.impl.AbstractLookupPersistentEntity#name
+#: domainapp.modules.cmn.dom.impl.Country#name
+#: domainapp.modules.cmn.dom.impl.DestinationProfile#name
+#: domainapp.modules.cmn.dom.impl.DistributionProfile#name
+#: domainapp.modules.cmn.dom.impl.Document#name
+#: domainapp.modules.cmn.dom.impl.Plugin#name
+#: domainapp.modules.cmn.dom.impl.PluginType#name
+#: domainapp.modules.cmn.dom.impl.Profile#name
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#name
+#: domainapp.modules.cmn.dom.impl.Template#name
+#: domainapp.modules.cmn.dom.impl.TemplateEngine#name
+msgid "Name"
+msgstr ""
+
+
+#: org.apache.isis.core.metamodel.services.appfeat.ApplicationFeatureFactory#newApplicationFeature()
+msgid "New Application Feature"
+msgstr ""
+
+
+#: org.apache.isis.applib.annotation.SemanticsOf#NON_IDEMPOTENT
+msgid "Non Idempotent"
+msgstr ""
+
+
+#: org.apache.isis.applib.annotation.SemanticsOf#NON_IDEMPOTENT_ARE_YOU_SURE
+msgid "Non Idempotent Are You Sure"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.layout.LayoutService$Style#NORMALIZED
+msgid "Normalized"
+msgstr ""
+
+
+#: org.apache.isis.applib.annotation.Command$Persistence#NOT_PERSISTED
+msgid "Not Persisted"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#targetStr
+#: org.isisaddons.module.command.dom.CommandJdo#targetStr
+msgid "Object"
+msgstr ""
+
+
+#: org.apache.isis.schema.common.v1.OidDto#objectIdentifier
+msgid "Object Identifier"
+msgstr ""
+
+
+#: org.apache.isis.schema.common.v1.OidDto#objectState
+msgid "Object State"
+msgstr ""
+
+
+#: org.apache.isis.schema.common.v1.OidDto#objectType
+msgid "Object Type"
+msgstr ""
+
+
+#: org.apache.isis.schema.common.v1.OidsDto#oid
+msgid "Oid"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#openTargetObject()
+#: org.isisaddons.module.command.dom.CommandJdo#openResultObject()
+#: org.isisaddons.module.command.dom.CommandJdo#openTargetObject()
+msgid "Open"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.command.Command$Executor#OTHER
+msgid "Other"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.DistributionProfile#userCreation
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#userCreation
+msgid "Owner"
+msgstr ""
+
+
+#: org.apache.isis.applib.fixturescripts.FixtureScripts#runFixtureScript(org.apache.isis.applib.fixturescripts.FixtureScript,java.lang.String)
+#: org.apache.isis.applib.services.fixturespec.FixtureScriptsDefault#runFixtureScript(org.apache.isis.applib.fixturescripts.FixtureScript,java.lang.String)
+#: org.apache.isis.applib.services.fixturespec.FixtureScriptsDefault#runFixtureScriptWithAutoComplete(org.apache.isis.applib.fixturescripts.FixtureScript,java.lang.String)
+msgid "Parameters"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo#parent
+msgid "Parent"
+msgstr ""
+
+
+#: org.apache.isis.applib.annotation.Command$Persistence#PERSISTED
+msgid "Persisted"
+msgstr ""
+
+
+#: org.apache.isis.schema.common.v1.BookmarkObjectState#PERSISTENT
+msgid "Persistent"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.Template#plugin
+msgid "Plugin"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.Plugin#type
+msgid "Plugin type"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.CommonMenu#plugins()
+msgid "Plugins"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#postValue
+#: org.isisaddons.module.command.dom.CommandJdo#postValue
+msgid "Post Value"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#preValue
+#: org.isisaddons.module.command.dom.CommandJdo#preValue
+msgid "Pre Value"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.swagger.SwaggerService$Visibility#PRIVATE
+msgid "Private"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.swagger.SwaggerService$Visibility#PRIVATE_WITH_PROTOTYPING
+msgid "Private With Prototyping"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageViewModel#createReportingProfile(java.lang.String,java.lang.String,domainapp.modules.cmn.dom.impl.Profile,domainapp.modules.cmn.util.DistributionFrequency,domainapp.modules.cmn.util.DistributionType,java.lang.String,java.lang.String,domainapp.modules.cmn.dom.impl.Template,domainapp.modules.cmn.util.ReportType)
+#: domainapp.modules.cmn.dom.impl.DistributionProfile#profile
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#profile
+msgid "Profile"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.CommonMenu#profiles()
+msgid "Profiles"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupPersistentEntity#programCreation
+#: domainapp.modules.cmn.dom.impl.AbstractActivablePersistentEntity#programCreation
+#: domainapp.modules.cmn.dom.impl.AbstractLookupPersistentEntity#programCreation
+#: domainapp.modules.cmn.dom.impl.BasePersistableEntity#programCreation
+#: domainapp.modules.cmn.dom.impl.Country#programCreation
+#: domainapp.modules.cmn.dom.impl.DestinationProfile#programCreation
+#: domainapp.modules.cmn.dom.impl.DistributionProfile#programCreation
+#: domainapp.modules.cmn.dom.impl.Document#programCreation
+#: domainapp.modules.cmn.dom.impl.Plugin#programCreation
+#: domainapp.modules.cmn.dom.impl.Profile#programCreation
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#programCreation
+#: domainapp.modules.cmn.dom.impl.Template#programCreation
+#: domainapp.modules.cmn.dom.impl.TemplateEngine#programCreation
+msgid "Program Creation"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupPersistentEntity#programModification
+#: domainapp.modules.cmn.dom.impl.AbstractActivablePersistentEntity#programModification
+#: domainapp.modules.cmn.dom.impl.AbstractLookupPersistentEntity#programModification
+#: domainapp.modules.cmn.dom.impl.BasePersistableEntity#programModification
+#: domainapp.modules.cmn.dom.impl.Country#programModification
+#: domainapp.modules.cmn.dom.impl.DestinationProfile#programModification
+#: domainapp.modules.cmn.dom.impl.DistributionProfile#programModification
+#: domainapp.modules.cmn.dom.impl.Document#programModification
+#: domainapp.modules.cmn.dom.impl.Plugin#programModification
+#: domainapp.modules.cmn.dom.impl.Profile#programModification
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#programModification
+#: domainapp.modules.cmn.dom.impl.Template#programModification
+#: domainapp.modules.cmn.dom.impl.TemplateEngine#programModification
+msgid "Program Modification"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.appfeat.ApplicationMemberType#PROPERTY
+msgid "Property"
+msgstr ""
+
+
+#: org.apache.isis.schema.common.v1.InteractionType#PROPERTY_EDIT
+msgid "Property Edit"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#propertyId
+#: org.isisaddons.module.command.dom.CommandJdo#propertyId
+msgid "Property Id"
+msgstr ""
+
+
+#: domainapp.application.services.dbmanager.HsqlDbManagerMenu
+#: org.apache.isis.applib.services.fixturespec.FixtureScriptsDefault
+#: org.apache.isis.applib.services.layout.LayoutServiceMenu
+#: org.apache.isis.applib.services.metamodel.MetaModelServicesMenu
+#: org.apache.isis.applib.services.swagger.SwaggerServiceMenu
+#: org.apache.isis.core.runtime.services.i18n.po.TranslationServicePoMenu
+msgid "Prototyping"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.swagger.SwaggerService$Visibility#PUBLIC
+msgid "Public"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract$ChangeType#PUBLISHED_EVENT
+msgid "Published Event"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract$ChangeType#PUBLISHED_INTERACTION
+msgid "Published Interaction"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageViewModel#rebuildMetamodel()
+#: domainapp.modules.cmn.dom.api.IActivableEntity#rebuildMetamodel()
+#: domainapp.modules.cmn.dom.api.ILookupEntity#rebuildMetamodel()
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupByCodeRepository#rebuildMetamodel()
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupPersistentEntity#rebuildMetamodel()
+#: domainapp.modules.cmn.dom.impl.AbstractActivablePersistentEntity#rebuildMetamodel()
+#: domainapp.modules.cmn.dom.impl.AbstractActivableRepository#rebuildMetamodel()
+#: domainapp.modules.cmn.dom.impl.AbstractLookupByCodeRepository#rebuildMetamodel()
+#: domainapp.modules.cmn.dom.impl.AbstractLookupPersistentEntity#rebuildMetamodel()
+#: domainapp.modules.cmn.dom.impl.AbstractRepository#rebuildMetamodel()
+#: domainapp.modules.cmn.dom.impl.BasePersistableEntity#rebuildMetamodel()
+#: domainapp.modules.cmn.dom.impl.Country#rebuildMetamodel()
+#: domainapp.modules.cmn.dom.impl.DestinationProfile#rebuildMetamodel()
+#: domainapp.modules.cmn.dom.impl.DistributionProfile#rebuildMetamodel()
+#: domainapp.modules.cmn.dom.impl.Document#rebuildMetamodel()
+#: domainapp.modules.cmn.dom.impl.Plugin#rebuildMetamodel()
+#: domainapp.modules.cmn.dom.impl.PluginType#rebuildMetamodel()
+#: domainapp.modules.cmn.dom.impl.Profile#rebuildMetamodel()
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#rebuildMetamodel()
+#: domainapp.modules.cmn.dom.impl.Template#rebuildMetamodel()
+#: domainapp.modules.cmn.dom.impl.TemplateEngine#rebuildMetamodel()
+#: java.io.Serializable#rebuildMetamodel()
+#: java.lang.Class#rebuildMetamodel()
+#: java.lang.Comparable#rebuildMetamodel()
+#: java.lang.Iterable#rebuildMetamodel()
+#: java.lang.Object#rebuildMetamodel()
+#: java.lang.reflect.AnnotatedElement#rebuildMetamodel()
+#: java.lang.reflect.GenericDeclaration#rebuildMetamodel()
+#: java.lang.reflect.Type#rebuildMetamodel()
+#: java.util.Collection#rebuildMetamodel()
+#: java.util.List#rebuildMetamodel()
+#: java.util.Map#rebuildMetamodel()
+#: java.util.Set#rebuildMetamodel()
+#: javax.jdo.InstanceCallbacks#rebuildMetamodel()
+#: javax.jdo.listener.ClearCallback#rebuildMetamodel()
+#: javax.jdo.listener.DeleteCallback#rebuildMetamodel()
+#: javax.jdo.listener.InstanceLifecycleListener#rebuildMetamodel()
+#: javax.jdo.listener.LoadCallback#rebuildMetamodel()
+#: javax.jdo.listener.LoadLifecycleListener#rebuildMetamodel()
+#: javax.jdo.listener.StoreCallback#rebuildMetamodel()
+#: javax.jdo.listener.StoreLifecycleListener#rebuildMetamodel()
+#: org.apache.isis.applib.AbstractContainedObject#rebuildMetamodel()
+#: org.apache.isis.applib.AbstractService#rebuildMetamodel()
+#: org.apache.isis.applib.AbstractSubscriber#rebuildMetamodel()
+#: org.apache.isis.applib.AbstractViewModel#rebuildMetamodel()
+#: org.apache.isis.applib.ViewModel#rebuildMetamodel()
+#: org.apache.isis.applib.fixtures.InstallableFixture#rebuildMetamodel()
+#: org.apache.isis.applib.fixturescripts.FixtureResult#rebuildMetamodel()
+#: org.apache.isis.applib.fixturescripts.FixtureScript#rebuildMetamodel()
+#: org.apache.isis.applib.fixturescripts.FixtureScripts#rebuildMetamodel()
+#: org.apache.isis.applib.services.HasTransactionId#rebuildMetamodel()
+#: org.apache.isis.applib.services.HasUsername#rebuildMetamodel()
+#: org.apache.isis.applib.services.WithTransactionScope#rebuildMetamodel()
+#: org.apache.isis.applib.services.appfeat.ApplicationFeatureRepository#rebuildMetamodel()
+#: org.apache.isis.applib.services.audit.AuditerService#rebuildMetamodel()
+#: org.apache.isis.applib.services.background.BackgroundCommandService#rebuildMetamodel()
+#: org.apache.isis.applib.services.background.BackgroundCommandService2#rebuildMetamodel()
+#: org.apache.isis.applib.services.background.BackgroundService#rebuildMetamodel()
+#: org.apache.isis.applib.services.background.BackgroundService2#rebuildMetamodel()
+#: org.apache.isis.applib.services.bookmark.BookmarkService#rebuildMetamodel()
+#: org.apache.isis.applib.services.bookmark.BookmarkService2#rebuildMetamodel()
+#: org.apache.isis.applib.services.classdiscovery.ClassDiscoveryService#rebuildMetamodel()
+#: org.apache.isis.applib.services.classdiscovery.ClassDiscoveryService2#rebuildMetamodel()
+#: org.apache.isis.applib.services.command.Command#rebuildMetamodel()
+#: org.apache.isis.applib.services.command.Command2#rebuildMetamodel()
+#: org.apache.isis.applib.services.command.Command3#rebuildMetamodel()
+#: org.apache.isis.applib.services.command.spi.CommandService#rebuildMetamodel()
+#: org.apache.isis.applib.services.config.ConfigurationProperty#rebuildMetamodel()
+#: org.apache.isis.applib.services.config.ConfigurationService#rebuildMetamodel()
+#: org.apache.isis.applib.services.email.EmailService#rebuildMetamodel()
+#: org.apache.isis.applib.services.eventbus.EventBusService#rebuildMetamodel()
+#: org.apache.isis.applib.services.exceprecog.ExceptionRecognizer#rebuildMetamodel()
+#: org.apache.isis.applib.services.exceprecog.ExceptionRecognizer2#rebuildMetamodel()
+#: org.apache.isis.applib.services.exceprecog.ExceptionRecognizerComposite#rebuildMetamodel()
+#: org.apache.isis.applib.services.factory.FactoryService#rebuildMetamodel()
+#: org.apache.isis.applib.services.fixturespec.FixtureScriptsSpecificationProvider#rebuildMetamodel()
+#: org.apache.isis.applib.services.grid.GridLoaderService#rebuildMetamodel()
+#: org.apache.isis.applib.services.grid.GridService#rebuildMetamodel()
+#: org.apache.isis.applib.services.grid.GridSystemService#rebuildMetamodel()
+#: org.apache.isis.applib.services.homepage.HomePageProviderService#rebuildMetamodel()
+#: org.apache.isis.applib.services.i18n.TranslationService#rebuildMetamodel()
+#: org.apache.isis.applib.services.jaxb.JaxbService#rebuildMetamodel()
+#: org.apache.isis.applib.services.jaxb.JaxbService$Simple#rebuildMetamodel()
+#: org.apache.isis.applib.services.jdosupport.IsisJdoSupport#rebuildMetamodel()
+#: org.apache.isis.applib.services.layout.LayoutService#rebuildMetamodel()
+#: org.apache.isis.applib.services.memento.MementoService#rebuildMetamodel()
+#: org.apache.isis.applib.services.message.MessageService#rebuildMetamodel()
+#: org.apache.isis.applib.services.metamodel.MetaModelService#rebuildMetamodel()
+#: org.apache.isis.applib.services.metamodel.MetaModelService2#rebuildMetamodel()
+#: org.apache.isis.applib.services.metamodel.MetaModelService3#rebuildMetamodel()
+#: org.apache.isis.applib.services.metrics.MetricsService#rebuildMetamodel()
+#: org.apache.isis.applib.services.publish.PublisherService#rebuildMetamodel()
+#: org.apache.isis.applib.services.registry.ServiceRegistry#rebuildMetamodel()
+#: org.apache.isis.applib.services.registry.ServiceRegistry2#rebuildMetamodel()
+#: org.apache.isis.applib.services.repository.RepositoryService#rebuildMetamodel()
+#: org.apache.isis.applib.services.routing.RoutingService#rebuildMetamodel()
+#: org.apache.isis.applib.services.sessmgmt.SessionManagementService#rebuildMetamodel()
+#: org.apache.isis.applib.services.sudo.SudoService#rebuildMetamodel()
+#: org.apache.isis.applib.services.sudo.SudoService$Spi#rebuildMetamodel()
+#: org.apache.isis.applib.services.swagger.SwaggerService#rebuildMetamodel()
+#: org.apache.isis.applib.services.tablecol.TableColumnOrderService#rebuildMetamodel()
+#: org.apache.isis.applib.services.title.TitleService#rebuildMetamodel()
+#: org.apache.isis.applib.services.urlencoding.UrlEncodingService#rebuildMetamodel()
+#: org.apache.isis.applib.services.user.UserService#rebuildMetamodel()
+#: org.apache.isis.applib.services.userreg.EmailNotificationService#rebuildMetamodel()
+#: org.apache.isis.applib.services.wrapper.WrapperFactory#rebuildMetamodel()
+#: org.apache.isis.applib.services.xactn.TransactionService#rebuildMetamodel()
+#: org.apache.isis.applib.services.xmlsnapshot.XmlSnapshotService#rebuildMetamodel()
+#: org.apache.isis.applib.services.xmlsnapshot.XmlSnapshotServiceAbstract#rebuildMetamodel()
+#: org.apache.isis.core.commons.authentication.AuthenticationSessionProvider#rebuildMetamodel()
+#: org.apache.isis.core.commons.components.ApplicationScopedComponent#rebuildMetamodel()
+#: org.apache.isis.core.commons.components.Component#rebuildMetamodel()
+#: org.apache.isis.core.commons.config.IsisConfiguration#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.adapter.mgr.AdapterManager#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.adapter.mgr.AdapterManagerBase#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.deployment.DeploymentCategoryProvider#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.facetapi.MetaModelRefiner#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.facetapi.MetaModelValidatorRefiner#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.services.ServicesInjectorAware#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.services.appfeat.ApplicationFeature#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.services.command.CommandDtoServiceInternal#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.services.configinternal.ConfigurationServiceInternal#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.services.grid.GridSystemServiceAbstract#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.services.ixn.InteractionDtoServiceInternal#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.services.msgbroker.MessageBrokerServiceInternal#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.services.persistsession.PersistenceSessionServiceInternal#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.services.publishing.PublishingServiceInternal#rebuildMetamodel()
+#: org.apache.isis.core.metamodel.services.transtate.TransactionStateProviderInternal#rebuildMetamodel()
+#: org.apache.isis.core.runtime.authentication.AuthenticationManager#rebuildMetamodel()
+#: org.apache.isis.core.runtime.authorization.AuthorizationManager#rebuildMetamodel()
+#: org.apache.isis.core.runtime.authorization.AuthorizationManagerAbstract#rebuildMetamodel()
+#: org.apache.isis.core.runtime.persistence.FixturesInstalledFlag#rebuildMetamodel()
+#: org.apache.isis.core.runtime.services.eventbus.EventBusServiceDefault#rebuildMetamodel()
+#: org.apache.isis.core.runtime.system.transaction.TransactionalClosure#rebuildMetamodel()
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#rebuildMetamodel()
+#: org.apache.isis.objectstore.jdo.applib.service.support.IsisJdoSupport#rebuildMetamodel()
+#: org.apache.isis.schema.cmd.v1.CommandDto#rebuildMetamodel()
+#: org.apache.isis.schema.cmd.v1.MemberDto#rebuildMetamodel()
+#: org.apache.isis.schema.common.v1.OidDto#rebuildMetamodel()
+#: org.apache.isis.schema.common.v1.OidsDto#rebuildMetamodel()
+#: org.isisaddons.module.command.dom.CommandJdo#rebuildMetamodel()
+msgid "Rebuild Metamodel"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.HasUsername#recentCommandsByUser()
+#: org.isisaddons.module.command.dom.CommandJdo#recentCommandsByUser()
+msgid "Recent Commands By User"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.fixturespec.FixtureScriptsDefault#recreateObjectsAndReturnFirst()
+msgid "Recreate Objects And Return First"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.Plugin#reloadPlugins()
+msgid "Reload Plugins"
+msgstr ""
+
+
+#: domainapp.modules.cmn.util.DistributionType#REMOTE
+msgid "Remote"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageViewModel#remove()
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupByCodeRepository#remove()
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupPersistentEntity#remove()
+#: domainapp.modules.cmn.dom.impl.AbstractActivablePersistentEntity#remove()
+#: domainapp.modules.cmn.dom.impl.AbstractActivableRepository#remove()
+#: domainapp.modules.cmn.dom.impl.AbstractLookupByCodeRepository#remove()
+#: domainapp.modules.cmn.dom.impl.AbstractLookupPersistentEntity#remove()
+#: domainapp.modules.cmn.dom.impl.AbstractRepository#remove()
+#: domainapp.modules.cmn.dom.impl.BasePersistableEntity#remove()
+#: domainapp.modules.cmn.dom.impl.Country#remove()
+#: domainapp.modules.cmn.dom.impl.CountryRepository#remove()
+#: domainapp.modules.cmn.dom.impl.DestinationProfile#remove()
+#: domainapp.modules.cmn.dom.impl.DestinationProfileRepository#remove()
+#: domainapp.modules.cmn.dom.impl.DistributionProfile#remove()
+#: domainapp.modules.cmn.dom.impl.Document#remove()
+#: domainapp.modules.cmn.dom.impl.DocumentRepository#remove()
+#: domainapp.modules.cmn.dom.impl.Plugin#remove()
+#: domainapp.modules.cmn.dom.impl.PluginRepository#remove()
+#: domainapp.modules.cmn.dom.impl.PluginType#remove()
+#: domainapp.modules.cmn.dom.impl.PluginTypeRepository#remove()
+#: domainapp.modules.cmn.dom.impl.Profile#remove()
+#: domainapp.modules.cmn.dom.impl.ProfileRepository#remove()
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#remove()
+#: domainapp.modules.cmn.dom.impl.ReportingProfileRepository#remove()
+#: domainapp.modules.cmn.dom.impl.Template#remove()
+#: domainapp.modules.cmn.dom.impl.TemplateEngine#remove()
+#: domainapp.modules.cmn.dom.impl.TemplateEngineRepository#remove()
+#: domainapp.modules.cmn.dom.impl.TemplateRepository#remove()
+#: java.lang.Class#remove()
+#: java.lang.Object#remove()
+#: org.apache.isis.applib.AbstractContainedObject#remove()
+#: org.apache.isis.applib.AbstractService#remove()
+#: org.apache.isis.applib.AbstractSubscriber#remove()
+#: org.apache.isis.applib.AbstractViewModel#remove()
+#: org.apache.isis.applib.fixturescripts.FixtureResult#remove()
+#: org.apache.isis.applib.fixturescripts.FixtureScript#remove()
+#: org.apache.isis.applib.fixturescripts.FixtureScripts#remove()
+#: org.apache.isis.applib.services.config.ConfigurationProperty#remove()
+#: org.apache.isis.applib.services.eventbus.EventBusService#remove()
+#: org.apache.isis.applib.services.exceprecog.ExceptionRecognizerComposite#remove()
+#: org.apache.isis.applib.services.jaxb.JaxbService$Simple#remove()
+#: org.apache.isis.applib.services.xmlsnapshot.XmlSnapshotServiceAbstract#remove()
+#: org.apache.isis.core.metamodel.services.appfeat.ApplicationFeature#remove()
+#: org.apache.isis.core.metamodel.services.grid.GridSystemServiceAbstract#remove()
+#: org.apache.isis.core.runtime.authorization.AuthorizationManagerAbstract#remove()
+#: org.apache.isis.core.runtime.services.eventbus.EventBusServiceDefault#remove()
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#remove()
+#: org.apache.isis.schema.cmd.v1.CommandDto#remove()
+#: org.apache.isis.schema.cmd.v1.MemberDto#remove()
+#: org.apache.isis.schema.common.v1.OidDto#remove()
+#: org.apache.isis.schema.common.v1.OidsDto#remove()
+#: org.isisaddons.module.command.dom.CommandJdo#remove()
+msgid "Remove"
+msgstr ""
+
+
+#: domainapp.modules.cmn.service.FormatterService#replace()
+msgid "Replace"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageViewModel#createReportDocument(java.lang.String,java.lang.String,domainapp.modules.cmn.dom.impl.Template)
+msgid "Report Document Filename"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageViewModel#createReportDocument(java.lang.String,java.lang.String,domainapp.modules.cmn.dom.impl.Template)
+msgid "Report Document Name"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageViewModel#createReportDocument(java.lang.String,java.lang.String,domainapp.modules.cmn.dom.impl.Template)
+#: domainapp.application.services.homepage.HomePageViewModel#createReportingProfile(java.lang.String,java.lang.String,domainapp.modules.cmn.dom.impl.Profile,domainapp.modules.cmn.util.DistributionFrequency,domainapp.modules.cmn.util.DistributionType,java.lang.String,java.lang.String,domainapp.modules.cmn.dom.impl.Template,domainapp.modules.cmn.util.ReportType)
+msgid "Report Template"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageViewModel#createReportTemplate(java.lang.String,domainapp.modules.cmn.util.TemplateType,domainapp.modules.cmn.dom.impl.TemplateEngine,org.apache.isis.applib.value.Blob,java.lang.String,domainapp.modules.cmn.dom.impl.Plugin)
+msgid "Report Template Engine"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageViewModel#createReportTemplate(java.lang.String,domainapp.modules.cmn.util.TemplateType,domainapp.modules.cmn.dom.impl.TemplateEngine,org.apache.isis.applib.value.Blob,java.lang.String,domainapp.modules.cmn.dom.impl.Plugin)
+msgid "Report Template File"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageViewModel#createReportTemplate(java.lang.String,domainapp.modules.cmn.util.TemplateType,domainapp.modules.cmn.dom.impl.TemplateEngine,org.apache.isis.applib.value.Blob,java.lang.String,domainapp.modules.cmn.dom.impl.Plugin)
+msgid "Report Template Name"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageViewModel#createReportTemplate(java.lang.String,domainapp.modules.cmn.util.TemplateType,domainapp.modules.cmn.dom.impl.TemplateEngine,org.apache.isis.applib.value.Blob,java.lang.String,domainapp.modules.cmn.dom.impl.Plugin)
+msgid "Report Template Type"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#reportType
+msgid "Report Type"
+msgstr ""
+
+
+#: domainapp.modules.cmn.util.ReportType#REPORTING_LEVEL_POSITION_LIMIT_BREACH_REPORT
+msgid "Reporting Level Position Limit Breach Report"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageViewModel#reportingProfiles
+msgid "Reporting Profiles"
+msgstr ""
+
+
+#: org.apache.isis.applib.fixturescripts.FixtureResult#object
+#: org.isisaddons.module.command.dom.CommandJdo#resultSummary
+msgid "Result"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo#resultStr
+msgid "Result Bookmark"
+msgstr ""
+
+
+#: org.apache.isis.applib.fixturescripts.FixtureResult#className
+msgid "Result class"
+msgstr ""
+
+
+#: org.apache.isis.applib.fixturescripts.FixtureResult#key
+msgid "Result key"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo
+msgid "ResultStr"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo
+msgid "Results"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo#retry()
+msgid "Retry"
+msgstr ""
+
+
+#: org.apache.isis.applib.fixturescripts.FixtureScript#runFixtureScript()
+#: org.apache.isis.applib.fixturescripts.FixtureScript#runFixtureScriptWithAutoComplete()
+#: org.apache.isis.applib.fixturescripts.FixtureScripts#runFixtureScript()
+#: org.apache.isis.applib.services.fixturespec.FixtureScriptsDefault#runFixtureScript()
+#: org.apache.isis.applib.services.fixturespec.FixtureScriptsDefault#runFixtureScriptWithAutoComplete()
+msgid "Run Fixture Script"
+msgstr ""
+
+
+#: org.apache.isis.applib.annotation.SemanticsOf#SAFE
+msgid "Safe"
+msgstr ""
+
+
+#: org.apache.isis.applib.annotation.SemanticsOf#SAFE_AND_REQUEST_CACHEABLE
+msgid "Safe And Request Cacheable"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.BackgroundCommandServiceJdo#schedule()
+msgid "Schedule"
+msgstr ""
+
+
+#: org.apache.isis.applib.fixturescripts.FixtureScript
+msgid "Script"
+msgstr ""
+
+
+#: org.apache.isis.applib.fixturescripts.FixtureScripts#runFixtureScript(org.apache.isis.applib.fixturescripts.FixtureScript,java.lang.String)
+#: org.apache.isis.applib.services.fixturespec.FixtureScriptsDefault#runFixtureScript(org.apache.isis.applib.fixturescripts.FixtureScript,java.lang.String)
+#: org.apache.isis.applib.services.fixturespec.FixtureScriptsDefault#runFixtureScriptWithAutoComplete(org.apache.isis.applib.fixturescripts.FixtureScript,java.lang.String)
+msgid "Script-specific parameters (if any).  The format depends on the script implementation (eg key=value, CSV, JSON, XML etc)"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.CommonMenu#addPlugin(org.apache.isis.applib.value.Blob)
+msgid "Select plugin jar file to load"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageViewModel#createReportDocument()
+msgid "Setup Report Document"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo#showException()
+msgid "Show Exception"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo#startedAt
+msgid "Started At"
+msgstr ""
+
+
+#: org.apache.isis.core.runtime.services.i18n.po.TranslationServicePoMenu#switchToReadingTranslations()
+msgid "Switch To Reading Translations"
+msgstr ""
+
+
+#: org.apache.isis.core.runtime.services.i18n.po.TranslationServicePoMenu#switchToWritingTranslations()
+msgid "Switch To Writing Translations"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract
+#: org.isisaddons.module.command.dom.CommandJdo
+msgid "Target"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract
+#: org.isisaddons.module.command.dom.CommandJdo
+msgid "TargetStr"
+msgstr ""
+
+
+#: org.apache.isis.schema.cmd.v1.CommandDto#targets
+msgid "Targets"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.Document#template
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#template
+msgid "Template"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.Template#templateEngine
+msgid "Template Engine"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageViewModel#createReportTemplate(java.lang.String,domainapp.modules.cmn.util.TemplateType,domainapp.modules.cmn.dom.impl.TemplateEngine,org.apache.isis.applib.value.Blob,java.lang.String,domainapp.modules.cmn.dom.impl.Plugin)
+msgid "Template Engine Plugin"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.Template#templateFilename
+msgid "Template Filename"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.Template#templateType
+msgid "Template Type"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageViewModel#testMethod()
+msgid "Test Method"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#timestamp
+#: org.isisaddons.module.command.dom.CommandJdo#timestamp
+msgid "Timestamp"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo
+msgid "Timings"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandServiceMenu#findCommands(org.joda.time.LocalDate,org.joda.time.LocalDate)
+msgid "To"
+msgstr ""
+
+
+#: domainapp.modules.cmn.service.FormatterService#toBigDecimal()
+msgid "To Big Decimal"
+msgstr ""
+
+
+#: domainapp.modules.cmn.service.FormatterService#toBigInteger()
+msgid "To Big Integer"
+msgstr ""
+
+
+#: domainapp.modules.cmn.service.FormatterService#toDate()
+msgid "To Date"
+msgstr ""
+
+
+#: domainapp.modules.cmn.service.FormatterService#toDateString()
+msgid "To Date String"
+msgstr ""
+
+
+#: domainapp.modules.cmn.service.FormatterService#toDateTime()
+msgid "To Date Time"
+msgstr ""
+
+
+#: domainapp.modules.cmn.service.FormatterService#toDouble()
+msgid "To Double"
+msgstr ""
+
+
+#: domainapp.modules.cmn.service.FormatterService#toLong()
+msgid "To Long"
+msgstr ""
+
+
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#transactionId
+#: org.apache.isis.schema.cmd.v1.CommandDto#transactionId
+#: org.isisaddons.module.command.dom.CommandJdo#transactionId
+#: org.isisaddons.module.command.dom.CommandServiceMenu#findCommandById(java.util.UUID)
+msgid "Transaction Id"
+msgstr ""
+
+
+#: org.apache.isis.schema.common.v1.BookmarkObjectState#TRANSIENT
+msgid "Transient"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.Plugin#type
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#type
+#: org.apache.isis.schema.common.v1.OidDto#type
+#: org.isisaddons.module.command.dom.CommandJdo#type
+msgid "Type"
+msgstr ""
+
+
+#: domainapp.application.services.homepage.HomePageViewModel#update()
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupByCodeRepository#update()
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupPersistentEntity#update()
+#: domainapp.modules.cmn.dom.impl.AbstractActivablePersistentEntity#update()
+#: domainapp.modules.cmn.dom.impl.AbstractActivableRepository#update()
+#: domainapp.modules.cmn.dom.impl.AbstractLookupByCodeRepository#update()
+#: domainapp.modules.cmn.dom.impl.AbstractLookupPersistentEntity#update()
+#: domainapp.modules.cmn.dom.impl.AbstractRepository#update()
+#: domainapp.modules.cmn.dom.impl.BasePersistableEntity#update()
+#: domainapp.modules.cmn.dom.impl.Country#update()
+#: domainapp.modules.cmn.dom.impl.CountryRepository#update()
+#: domainapp.modules.cmn.dom.impl.DestinationProfile#update()
+#: domainapp.modules.cmn.dom.impl.DestinationProfileRepository#update()
+#: domainapp.modules.cmn.dom.impl.DistributionProfile#update()
+#: domainapp.modules.cmn.dom.impl.Document#update()
+#: domainapp.modules.cmn.dom.impl.DocumentRepository#update()
+#: domainapp.modules.cmn.dom.impl.Plugin#update()
+#: domainapp.modules.cmn.dom.impl.PluginRepository#update()
+#: domainapp.modules.cmn.dom.impl.PluginType#update()
+#: domainapp.modules.cmn.dom.impl.PluginTypeRepository#update()
+#: domainapp.modules.cmn.dom.impl.Profile#update()
+#: domainapp.modules.cmn.dom.impl.ProfileRepository#update()
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#update()
+#: domainapp.modules.cmn.dom.impl.ReportingProfileRepository#update()
+#: domainapp.modules.cmn.dom.impl.Template#update()
+#: domainapp.modules.cmn.dom.impl.TemplateEngine#update()
+#: domainapp.modules.cmn.dom.impl.TemplateEngineRepository#update()
+#: domainapp.modules.cmn.dom.impl.TemplateRepository#update()
+#: java.lang.Class#update()
+#: java.lang.Object#update()
+#: org.apache.isis.applib.AbstractContainedObject#update()
+#: org.apache.isis.applib.AbstractService#update()
+#: org.apache.isis.applib.AbstractSubscriber#update()
+#: org.apache.isis.applib.AbstractViewModel#update()
+#: org.apache.isis.applib.fixturescripts.FixtureResult#update()
+#: org.apache.isis.applib.fixturescripts.FixtureScript#update()
+#: org.apache.isis.applib.fixturescripts.FixtureScripts#update()
+#: org.apache.isis.applib.services.config.ConfigurationProperty#update()
+#: org.apache.isis.applib.services.eventbus.EventBusService#update()
+#: org.apache.isis.applib.services.exceprecog.ExceptionRecognizerComposite#update()
+#: org.apache.isis.applib.services.jaxb.JaxbService$Simple#update()
+#: org.apache.isis.applib.services.xmlsnapshot.XmlSnapshotServiceAbstract#update()
+#: org.apache.isis.core.metamodel.services.appfeat.ApplicationFeature#update()
+#: org.apache.isis.core.metamodel.services.grid.GridSystemServiceAbstract#update()
+#: org.apache.isis.core.runtime.authorization.AuthorizationManagerAbstract#update()
+#: org.apache.isis.core.runtime.services.eventbus.EventBusServiceDefault#update()
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#update()
+#: org.apache.isis.schema.cmd.v1.CommandDto#update()
+#: org.apache.isis.schema.cmd.v1.MemberDto#update()
+#: org.apache.isis.schema.common.v1.OidDto#update()
+#: org.apache.isis.schema.common.v1.OidsDto#update()
+#: org.isisaddons.module.command.dom.CommandJdo#update()
+msgid "Update"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.command.Command$Executor#USER
+#: org.apache.isis.objectstore.jdo.applib.service.DomainChangeJdoAbstract#user
+#: org.apache.isis.schema.cmd.v1.CommandDto#user
+#: org.isisaddons.module.command.dom.CommandJdo#user
+msgid "User"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupPersistentEntity#userCreation
+#: domainapp.modules.cmn.dom.impl.AbstractActivablePersistentEntity#userCreation
+#: domainapp.modules.cmn.dom.impl.AbstractLookupPersistentEntity#userCreation
+#: domainapp.modules.cmn.dom.impl.BasePersistableEntity#userCreation
+#: domainapp.modules.cmn.dom.impl.Country#userCreation
+#: domainapp.modules.cmn.dom.impl.DestinationProfile#userCreation
+#: domainapp.modules.cmn.dom.impl.Document#userCreation
+#: domainapp.modules.cmn.dom.impl.Plugin#userCreation
+#: domainapp.modules.cmn.dom.impl.Profile#userCreation
+#: domainapp.modules.cmn.dom.impl.Template#userCreation
+#: domainapp.modules.cmn.dom.impl.TemplateEngine#userCreation
+msgid "User Creation"
+msgstr ""
+
+
+#: domainapp.modules.cmn.dom.impl.AbstractActivableLookupPersistentEntity#userModification
+#: domainapp.modules.cmn.dom.impl.AbstractActivablePersistentEntity#userModification
+#: domainapp.modules.cmn.dom.impl.AbstractLookupPersistentEntity#userModification
+#: domainapp.modules.cmn.dom.impl.BasePersistableEntity#userModification
+#: domainapp.modules.cmn.dom.impl.Country#userModification
+#: domainapp.modules.cmn.dom.impl.DestinationProfile#userModification
+#: domainapp.modules.cmn.dom.impl.DistributionProfile#userModification
+#: domainapp.modules.cmn.dom.impl.Document#userModification
+#: domainapp.modules.cmn.dom.impl.Plugin#userModification
+#: domainapp.modules.cmn.dom.impl.Profile#userModification
+#: domainapp.modules.cmn.dom.impl.ReportingProfile#userModification
+#: domainapp.modules.cmn.dom.impl.Template#userModification
+#: domainapp.modules.cmn.dom.impl.TemplateEngine#userModification
+msgid "User Modification"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.config.ConfigurationProperty#value
+msgid "Value"
+msgstr ""
+
+
+#: org.apache.isis.core.metamodel.services.jdosupport.Persistable_datanucleusVersionLong#exec()
+#: org.apache.isis.core.metamodel.services.jdosupport.Persistable_datanucleusVersionTimestamp#exec()
+msgid "Version"
+msgstr ""
+
+
+#: org.apache.isis.schema.common.v1.BookmarkObjectState#VIEW_MODEL
+msgid "View Model"
+msgstr ""
+
+
+#: domainapp.modules.cmn.util.DistributionFrequency#WEEKLY
+msgid "Weekly"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.swagger.SwaggerService$Format#YAML
+msgid "Yaml"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.CommandJdo
+msgid "causedException"
+msgstr ""
+
+
+#: org.apache.isis.applib.services.layout.Object_downloadLayoutXml
+#: org.apache.isis.applib.services.layout.Object_rebuildMetamodel
+#: org.apache.isis.core.metamodel.services.jdosupport.Persistable_downloadJdoMetadata
+msgid "datanucleusIdLong"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.HasTransactionId_command
+msgid "transactionId"
+msgstr ""
+
+
+#: org.isisaddons.module.command.dom.HasUsername_recentCommandsByUser
+msgid "user"
+msgstr ""
+
+
+
+
+
+##############################################################################
+# end of .pot file
+##############################################################################
+
