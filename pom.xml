@@ -98,7 +98,7 @@
 
         <mavendeps-isistesting.version>0.0.2</mavendeps-isistesting.version>
         <mavendeps-isisintellij.version>0.0.1</mavendeps-isisintellij.version>
-        <mavendeps-isiswebapp.version>0.0.2</mavendeps-isiswebapp.version>
+        <mavendeps-isiswebapp.version>0.0.1</mavendeps-isiswebapp.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>

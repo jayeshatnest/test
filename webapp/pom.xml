@@ -197,7 +197,7 @@
         
         <dependency>
 		    <groupId>org.apache.isis.viewer</groupId>
-		    <artifactId>isis-core-viewer-wicket-impl</artifactId>
+		    <artifactId>isis-viewer-wicket-impl</artifactId>
 		</dependency>
 
 		<!-- Management and Monitoring -->
@@ -289,7 +289,7 @@
                                                     build-helper-maven-plugin
                                                 </artifactId>
                                                 <versionRange>
-                                                    [1.5,)
+                                                    [1.8,)
                                                 </versionRange>
                                                 <goals>
                                                     <goal>maven-version</goal>
