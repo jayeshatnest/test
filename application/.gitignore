@@ -1,0 +1,8 @@
+/target-ide/
+/target/
+/.settings/
+.classpath
+.project
+*.class
+translations.pot
+

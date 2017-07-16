@@ -1,0 +1,12 @@
+.gradle
+translations.pot
+*.jar
+gradle/wrapper
+!gradle-wrapper.jar
+/target-ide/
+
+/target/
+/.settings/
+.classpath
+.project
+*.class
