@@ -13,7 +13,6 @@ import org.apache.isis.applib.annotation.DomainObject;
 import org.apache.isis.applib.annotation.Editing;
 import org.apache.isis.applib.annotation.Property;
 import org.apache.isis.applib.annotation.PropertyLayout;
-import org.apache.isis.applib.annotation.Title;
 import org.apache.isis.applib.services.eventbus.ObjectCreatedEvent;
 import org.apache.isis.applib.services.eventbus.ObjectLoadedEvent;
 import org.apache.isis.applib.services.eventbus.ObjectPersistedEvent;

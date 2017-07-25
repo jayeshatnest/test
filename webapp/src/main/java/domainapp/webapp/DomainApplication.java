@@ -50,6 +50,7 @@ public class DomainApplication extends IsisWicketApplication {
 
         IBootstrapSettings settings = Bootstrap.getSettings();
         settings.setThemeProvider(new BootswatchThemeProvider(BootswatchTheme.Lumen));
+//        settings.setThemeProvider(new SingleThemeProvider(new StartBootstrapTheme()));
     }
 
     @Override

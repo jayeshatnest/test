@@ -26,6 +26,8 @@ import java.util.Map;
 
 import org.apache.isis.applib.AppManifest;
 import org.apache.isis.applib.fixturescripts.FixtureScript;
+import org.isisaddons.module.audit.AuditModule;
+import org.isisaddons.module.audit.dom.AuditingServiceMenu;
 import org.isisaddons.module.command.CommandModule;
 import org.isisaddons.module.command.dom.CommandServiceMenu;
 import org.isisaddons.wicket.gmap3.cpt.applib.Gmap3ApplibModule;
@@ -47,7 +49,7 @@ public class DomainAppAppManifest implements AppManifest {
     @Override
     public List<Class<?>> getModules() {
         return Arrays.asList(
-//        		AuditModule.class,
+        		AuditModule.class,
         		CommandModule.class,
                 CommonModuleDomSubmodule.class,
                 Gmap3ApplibModule.class,
@@ -64,7 +66,7 @@ public class DomainAppAppManifest implements AppManifest {
     @Override
     public List<Class<?>> getAdditionalServices() {
 		return Arrays.asList(
-//				AuditingServiceMenu.class,
+				AuditingServiceMenu.class,
 				CommandServiceMenu.class
 		);
     }

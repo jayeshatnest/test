@@ -34,24 +34,17 @@
     <bs3:row>
         <bs3:col span="12" unreferencedCollections="true">
             <bs3:tabGroup >
-                <bs3:tab name="Reporting Profiles">
-                	<bs3:row>
-		              <bs3:col span="2">
-						<action id="createReportTemplate"/>		              	
-		       		  </bs3:col>
-		       		  <bs3:col span="2">
-		              	<action id="createReportDocument"/>
-		       		  </bs3:col>
-		       		  <bs3:col span="2">
-		           		<action id="createReportingProfile"/>
-		       		  </bs3:col>
-		       		  <bs3:col span="2">
-		           		<action id="testMethod"/>
-		       		  </bs3:col>
-                	</bs3:row>
+                <bs3:tab name="Profiles">
                     <bs3:row>
                         <bs3:col span="12">
-							<collection id="reportingProfiles" defaultView="table" />
+							<collection id="profiles" defaultView="table" />
+                        </bs3:col>
+                    </bs3:row>
+                </bs3:tab>
+                <bs3:tab name="Countries">
+                    <bs3:row>
+                        <bs3:col span="12">
+							<collection id="countries" defaultView="table" />
                         </bs3:col>
                     </bs3:row>
                 </bs3:tab>

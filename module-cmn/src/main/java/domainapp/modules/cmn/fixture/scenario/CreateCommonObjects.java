@@ -6,7 +6,6 @@ import org.apache.isis.applib.fixturescripts.FixtureScript;
 
 import domainapp.modules.cmn.dom.impl.Country;
 import domainapp.modules.cmn.dom.impl.CountryRepository;
-import domainapp.modules.cmn.dom.impl.TemplateEngineRepository;
 import lombok.experimental.Accessors;
 
 @Accessors(chain = true)
@@ -254,10 +253,6 @@ public class CreateCommonObjects extends FixtureScript {
 		ensureCountry("Yemen", "Yemen");
 		ensureCountry("Zambia", "Zambia");
 		ensureCountry("Zimbabwe", "Zimbabwe");
-
-		ensureTemplateEngine("velocity","Velocity");
-		ensureTemplateEngine("birt","Birt");
-		ensureTemplateEngine("plugin","Plugin");
 	}
 
 	public void ensureCountry(String code, String name) {
@@ -269,15 +264,6 @@ public class CreateCommonObjects extends FixtureScript {
 		}
 	}
 
-	public void ensureTemplateEngine(String code, String name) {
-		if (templateEngineRepository.findByCode(code) == null) {
-			templateEngineRepository.create(code,name);
-		}
-	}
-
 	@Inject
 	CountryRepository countryRepository;
-	
-	@Inject
-	TemplateEngineRepository templateEngineRepository;
 }
